@@ -1,0 +1,141 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .example-icon {
+    padding: 0 14px;
+  }
+  a:hover{
+    color: yellowgreen;
+  }
+  .navbar{
+    justify-content: space-between;
+  }
+  span{
+    padding-right: 1 rem;
+  }
+  a {color:black; text-decoration: none; cursor: pointer;}
+  input{
+    border-radius: 7px;
+  }
+  .disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: whitesmoke;
+  border: none;
+  width: fit-content;
+  margin-bottom: 7%;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover{
+  transform: scale(1.03);
+}
+.container-fluid{
+  margin-top: 5%;
+}
+.pos{
+  position: fixed;
+  z-index: 1000;
+  margin-top: 4%;
+}
+ngb-carousel {
+  max-width: 1300px;
+  margin: 2.75% auto;
+}
+
+ngb-carousel img {
+  width: 100%;
+  outline: none;
+}
+
+ngb-carousel {
+  width: inherit;
+  height: inherit;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel-item {
+  display: flex !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1.2s ease-in-out, visibility 1.2s;
+  z-index: -1;
+}
+
+.carousel-item.active{
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+.carousel-control-prev {
+   z-index: 20;
+}
+
+
+.carousel-control-next {
+   z-index: 20;
+}
+
+.carousel-indicators{
+  z-index: 20;
+}
+/* .card-deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: .5rem;
+} */
+/* .card-deck {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap; 
+  align-items: stretch;
+} */
+/* .card-deck .card {
+  display: block;
+  flex-basis: 25%; /* change this value for each breakpoint*/
+  .card-deck {
+    margin: 0 -15px;
+    justify-content: space-between;
+  }
+  
+  .card-deck .card {
+    margin: 0 0rem 1rem;
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .card-deck .card {
+      -ms-flex: 0 0 48.7%;
+      flex: 0 0 48.7%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .card-deck .card {
+      -ms-flex: 0 0 32%;
+      flex: 0 0 32%;
+    }
+  }
+  
+  @media (min-width: 992px)
+  {
+    .card-deck .card {
+      -ms-flex: 0 0 24%;
+      flex: 0 0 24%;
+    }
+  }
+  .menu-spacer {
+    flex: 1 1 auto;
+  }
+  ::ng-deep .iter {
+    background: green;
+    
+  }
+

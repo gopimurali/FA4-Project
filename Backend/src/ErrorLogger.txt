@@ -1,0 +1,1625 @@
+Mon Jan 06 2020 11:44:00 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:46:14 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:46:32 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:48:21 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:49:52 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:51:09 GMT+0530 (India Standard Time) - Error: Sorry for the Inconvinience... IND-102 is cancelled!!
+    at db.checkAvailability.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:20:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 11:51:29 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at db.checkAvailability.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:35:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 11:55:47 GMT+0530 (India Standard Time) - Error: Sorry for the Inconvinience... IND-102 has been cancelled!!
+    at db.checkBooking.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:109:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 11:55:59 GMT+0530 (India Standard Time) - Error: Flight is already Full. Can't Book more tickets
+    at db.checkBooking.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:113:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 12:00:20 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at db.checkAvailability.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:35:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 12:00:42 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { : null }
+    at Function.create (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at coll.s.topology.update (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:377:39)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:405:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+Mon Jan 06 2020 12:00:54 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { : null }
+    at Function.create (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at coll.s.topology.update (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:377:39)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:405:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+Mon Jan 06 2020 12:01:05 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { : null }
+    at Function.create (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at coll.s.topology.update (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:377:39)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:405:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+Mon Jan 13 2020 15:00:06 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at C:\Users\tejaswini.varthalur\Desktop\InfyAirlines-FA3-Angular\FlightBookingWS\src\service\users.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Tue Jan 14 2020 11:33:13 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at C:\Users\tejaswini.varthalur\Desktop\InfyAirlines-FA3-Angular\FlightBookingWS\src\service\users.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Tue Jan 14 2020 11:34:20 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at C:\Users\tejaswini.varthalur\Desktop\InfyAirlines-FA3-Angular\FlightBookingWS\src\service\users.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Mon Feb 10 2020 11:25:09 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at C:\Users\tejaswini.varthalur\Desktop\IntAssArtifacts_Angular\FlightBookingWS\src\service\users.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Mon Feb 10 2020 11:25:19 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.750 to continue booking
+    at C:\Users\tejaswini.varthalur\Desktop\IntAssArtifacts_Angular\FlightBookingWS\src\service\users.js:35:35
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Mon Feb 10 2020 11:27:17 GMT+0530 (India Standard Time) - Error: Sorry for the Inconvinience... IND-103 has been cancelled!!
+    at C:\Users\tejaswini.varthalur\Desktop\IntAssArtifacts_Angular\FlightBookingWS\src\service\users.js:109:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Mon Apr 13 2020 23:39:07 GMT+0530 (India Standard Time) - TypeError: vserve.register is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:29:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+Mon Apr 13 2020 23:41:17 GMT+0530 (India Standard Time) - TypeError: vserve.register is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:29:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+Mon Apr 13 2020 23:43:38 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:56:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 13 2020 23:44:53 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:56:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 13 2020 23:44:57 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:56:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 14 2020 01:09:14 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:56:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 14 2020 01:21:22 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:56:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Wed Apr 15 2020 22:55:33 GMT+0530 (India Standard Time) - TypeError: vserve.getAllProducts is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:42:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:56:48 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:31 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:32 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:33 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:33 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:33 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:33 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:38 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:39 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:39 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 22:58:52 GMT+0530 (India Standard Time) - TypeError: vserve.getAllProducts is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:42:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Wed Apr 15 2020 23:01:10 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:52:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Wed Apr 15 2020 23:01:20 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:42:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Wed Apr 15 2020 23:01:49 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:42:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Wed Apr 15 2020 23:06:35 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:42:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Wed Apr 15 2020 23:08:13 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:42:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Thu Apr 16 2020 02:36:45 GMT+0530 (India Standard Time) - TypeError: vserve.getAllUsers is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\routes\routing.js:36:12
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Haribabu\Desktop\project\backend\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Haribabu\Desktop\project\backend\src\utilities\requestlogger.js:8:5)
+Fri Apr 17 2020 01:47:45 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "$__,isNew,errors,_doc,$locals,$op,$init,db,discriminators,emaiId,password,uName,phoneNo,orderId,_id,__v,id,schema,collection,$__originalValidate,$__save,$__validate,$__remove,$__deleteOne,$__init,$isMongooseModelPrototype,$__handleSave,save,$__delta,$__version,increment,$__where,remove,delete,deleteOne,model,on,once,emit,listeners,removeListener,setMaxListeners,removeAllListeners,addListener,$__buildDoc,toBSON,init,update,updateOne,replaceOne,$session,overwrite,$set,set,$__shouldModify,$__set,$__getValue,$__setValue,get,$__path,markModified,unmarkModified,$ignore,directModifiedPaths,$isEmpty,modifiedPaths,isModified,$isDefault,$isDeleted,isDirectModified,isInit,isSelected,isDirectSelected,validate,validateSync,invalidate,$markValid,$isValid,$__reset,$__dirty,$__setSchema,$__getArrayPathsToValidate,$__getAllSubdocs,$__handleReject,$toObject,toObject,toJSON,inspect,equals,populate,execPopulate,populated,depopulate,$__fullPath,$__,isNew,errors,_doc,$locals,$op,$init,db,discriminators,emaiId,password,uName,phoneNo,orderId,_id,__v,id,schema,collection,$__originalValidate,$__save,$__validate,$__remove,$__deleteOne,$__init,$isMongooseModelPrototype,$__handleSave,save,$__delta,$__version,increment,$__where,remove,delete,deleteOne,model,on,once,emit,listeners,removeListener,setMaxListeners,removeAllListeners,addListener,$__buildDoc,toBSON,init,update,updateOne,replaceOne,$session,overwrite,$set,set,$__shouldModify,$__set,$__getValue,$__setValue,get,$__path,markModified,unmarkModified,$ignore,directModifiedPaths,$isEmpty,modifiedPaths,isModified,$isDefault,$isDeleted,isDirectModified,isInit,isSelected,isDirectSelected,validate,validateSync,invalidate,$markValid,$isValid,$__reset,$__dirty,$__setSchema,$__getArrayPathsToValidate,$__getAllSubdocs,$__handleReject,$toObject,toObject,toJSON,inspect,equals,populate,execPopulate,populated,depopulate,$__fullPath1" at path "orderId"
+    at new CastError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:51:79
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 01:50:29 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "$__,isNew,errors,_doc,$locals,$op,$init,db,discriminators,emaiId,password,uName,phoneNo,orderId,_id,__v,id,schema,collection,$__originalValidate,$__save,$__validate,$__remove,$__deleteOne,$__init,$isMongooseModelPrototype,$__handleSave,save,$__delta,$__version,increment,$__where,remove,delete,deleteOne,model,on,once,emit,listeners,removeListener,setMaxListeners,removeAllListeners,addListener,$__buildDoc,toBSON,init,update,updateOne,replaceOne,$session,overwrite,$set,set,$__shouldModify,$__set,$__getValue,$__setValue,get,$__path,markModified,unmarkModified,$ignore,directModifiedPaths,$isEmpty,modifiedPaths,isModified,$isDefault,$isDeleted,isDirectModified,isInit,isSelected,isDirectSelected,validate,validateSync,invalidate,$markValid,$isValid,$__reset,$__dirty,$__setSchema,$__getArrayPathsToValidate,$__getAllSubdocs,$__handleReject,$toObject,toObject,toJSON,inspect,equals,populate,execPopulate,populated,depopulate,$__fullPath,$__,isNew,errors,_doc,$locals,$op,$init,db,discriminators,emaiId,password,uName,phoneNo,orderId,_id,__v,id,schema,collection,$__originalValidate,$__save,$__validate,$__remove,$__deleteOne,$__init,$isMongooseModelPrototype,$__handleSave,save,$__delta,$__version,increment,$__where,remove,delete,deleteOne,model,on,once,emit,listeners,removeListener,setMaxListeners,removeAllListeners,addListener,$__buildDoc,toBSON,init,update,updateOne,replaceOne,$session,overwrite,$set,set,$__shouldModify,$__set,$__getValue,$__setValue,get,$__path,markModified,unmarkModified,$ignore,directModifiedPaths,$isEmpty,modifiedPaths,isModified,$isDefault,$isDeleted,isDirectModified,isInit,isSelected,isDirectSelected,validate,validateSync,invalidate,$markValid,$isValid,$__reset,$__dirty,$__setSchema,$__getArrayPathsToValidate,$__getAllSubdocs,$__handleReject,$toObject,toObject,toJSON,inspect,equals,populate,execPopulate,populated,depopulate,$__fullPath1" at path "orderId"
+    at new CastError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:51:79
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 01:57:47 GMT+0530 (India Standard Time) - ReferenceError: orderId is not defined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:25:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 01:58:17 GMT+0530 (India Standard Time) - ReferenceError: orderId is not defined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:25:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:00:54 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "$__,isNew,errors,_doc,$locals,$op,$init,db,discriminators,emaiId,password,uName,phoneNo,orderId,_id,__v,id,schema,collection,$__originalValidate,$__save,$__validate,$__remove,$__deleteOne,$__init,$isMongooseModelPrototype,$__handleSave,save,$__delta,$__version,increment,$__where,remove,delete,deleteOne,model,on,once,emit,listeners,removeListener,setMaxListeners,removeAllListeners,addListener,$__buildDoc,toBSON,init,update,updateOne,replaceOne,$session,overwrite,$set,set,$__shouldModify,$__set,$__getValue,$__setValue,get,$__path,markModified,unmarkModified,$ignore,directModifiedPaths,$isEmpty,modifiedPaths,isModified,$isDefault,$isDeleted,isDirectModified,isInit,isSelected,isDirectSelected,validate,validateSync,invalidate,$markValid,$isValid,$__reset,$__dirty,$__setSchema,$__getArrayPathsToValidate,$__getAllSubdocs,$__handleReject,$toObject,toObject,toJSON,inspect,equals,populate,execPopulate,populated,depopulate,$__fullPath,$__,isNew,errors,_doc,$locals,$op,$init,db,discriminators,emaiId,password,uName,phoneNo,orderId,_id,__v,id,schema,collection,$__originalValidate,$__save,$__validate,$__remove,$__deleteOne,$__init,$isMongooseModelPrototype,$__handleSave,save,$__delta,$__version,increment,$__where,remove,delete,deleteOne,model,on,once,emit,listeners,removeListener,setMaxListeners,removeAllListeners,addListener,$__buildDoc,toBSON,init,update,updateOne,replaceOne,$session,overwrite,$set,set,$__shouldModify,$__set,$__getValue,$__setValue,get,$__path,markModified,unmarkModified,$ignore,directModifiedPaths,$isEmpty,modifiedPaths,isModified,$isDefault,$isDeleted,isDirectModified,isInit,isSelected,isDirectSelected,validate,validateSync,invalidate,$markValid,$isValid,$__reset,$__dirty,$__setSchema,$__getArrayPathsToValidate,$__getAllSubdocs,$__handleReject,$toObject,toObject,toJSON,inspect,equals,populate,execPopulate,populated,depopulate,$__fullPath1" at path "orderId"
+    at new CastError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:61:79
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:01:31 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "$__,isNew,errors,_doc,$locals,$op,$init,db,discriminators,emaiId,password,uName,phoneNo,orderId,_id,__v,id,schema,collection,$__originalValidate,$__save,$__validate,$__remove,$__deleteOne,$__init,$isMongooseModelPrototype,$__handleSave,save,$__delta,$__version,increment,$__where,remove,delete,deleteOne,model,on,once,emit,listeners,removeListener,setMaxListeners,removeAllListeners,addListener,$__buildDoc,toBSON,init,update,updateOne,replaceOne,$session,overwrite,$set,set,$__shouldModify,$__set,$__getValue,$__setValue,get,$__path,markModified,unmarkModified,$ignore,directModifiedPaths,$isEmpty,modifiedPaths,isModified,$isDefault,$isDeleted,isDirectModified,isInit,isSelected,isDirectSelected,validate,validateSync,invalidate,$markValid,$isValid,$__reset,$__dirty,$__setSchema,$__getArrayPathsToValidate,$__getAllSubdocs,$__handleReject,$toObject,toObject,toJSON,inspect,equals,populate,execPopulate,populated,depopulate,$__fullPath,$__,isNew,errors,_doc,$locals,$op,$init,db,discriminators,emaiId,password,uName,phoneNo,orderId,_id,__v,id,schema,collection,$__originalValidate,$__save,$__validate,$__remove,$__deleteOne,$__init,$isMongooseModelPrototype,$__handleSave,save,$__delta,$__version,increment,$__where,remove,delete,deleteOne,model,on,once,emit,listeners,removeListener,setMaxListeners,removeAllListeners,addListener,$__buildDoc,toBSON,init,update,updateOne,replaceOne,$session,overwrite,$set,set,$__shouldModify,$__set,$__getValue,$__setValue,get,$__path,markModified,unmarkModified,$ignore,directModifiedPaths,$isEmpty,modifiedPaths,isModified,$isDefault,$isDeleted,isDirectModified,isInit,isSelected,isDirectSelected,validate,validateSync,invalidate,$markValid,$isValid,$__reset,$__dirty,$__setSchema,$__getArrayPathsToValidate,$__getAllSubdocs,$__handleReject,$toObject,toObject,toJSON,inspect,equals,populate,execPopulate,populated,depopulate,$__fullPath1" at path "orderId"
+    at new CastError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:61:79
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:02:29 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:03:00 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:03:37 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:04:16 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:05:17 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:05:31 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "0,1,21" at path "orderId"
+    at new CastError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:64:79
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:06:10 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "1001,1002,1005,1003,10041" at path "orderId"
+    at new CastError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:64:79
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:06:42 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:07:04 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:08:06 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:08:28 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:09:42 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:09:58 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:10:46 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:11:33 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:12:18 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:12:57 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:14:31 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:16:38 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:19:38 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:23:24 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:25:59 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 02:27:20 GMT+0530 (India Standard Time) - BulkWriteError: E11000 duplicate key error collection: Product_DB.User index: emaiId_1 dup key: { emaiId: null }
+    at OrderedBulkOperation.handleWriteError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\bulk\common.js:1210:11)
+    at resultHandler (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\bulk\common.js:519:23)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\core\connection\pool.js:404:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Fri Apr 17 2020 02:28:33 GMT+0530 (India Standard Time) - BulkWriteError: E11000 duplicate key error collection: Product_DB.User index: emaiId_1 dup key: { emaiId: null }
+    at OrderedBulkOperation.handleWriteError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\bulk\common.js:1210:11)
+    at resultHandler (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\bulk\common.js:519:23)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\core\connection\pool.js:404:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Fri Apr 17 2020 02:28:39 GMT+0530 (India Standard Time) - BulkWriteError: E11000 duplicate key error collection: Product_DB.User index: emaiId_1 dup key: { emaiId: null }
+    at OrderedBulkOperation.handleWriteError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\bulk\common.js:1210:11)
+    at resultHandler (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\bulk\common.js:519:23)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\core\connection\pool.js:404:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Fri Apr 17 2020 02:36:01 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 09:37:57 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 10:11:02 GMT+0530 (India Standard Time) - MongoError: Unsupported projection option: $push: { orderId: 1006 }
+    at Connection.<anonymous> (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\core\connection\pool.js:450:61)
+    at Connection.emit (events.js:315:20)
+    at processMessage (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\core\connection\connection.js:384:10)
+    at Socket.<anonymous> (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\core\connection\connection.js:553:15)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+    at Socket.Readable.push (_stream_readable.js:214:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+Fri Apr 17 2020 10:17:36 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:15:38 GMT+0530 (India Standard Time) - TypeError: id.orderId is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:12:33
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:16:21 GMT+0530 (India Standard Time) - TypeError: id.orderId is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:12:33
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:17:17 GMT+0530 (India Standard Time) - TypeError: id.orderId is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:12:33
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:17:57 GMT+0530 (India Standard Time) - TypeError: id.oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:12:33
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:18:13 GMT+0530 (India Standard Time) - TypeError: id.oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:12:33
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:19:31 GMT+0530 (India Standard Time) - TypeError: id.oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:12:33
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:19:48 GMT+0530 (India Standard Time) - TypeError: id.orders.oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:12:42
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:21:55 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'oli' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:12:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:23:00 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'oli' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:12:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:23:21 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'oli' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:13:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:23:42 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'oli' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:13:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:24:00 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'oli' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:13:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:24:07 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'oli' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:13:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:24:41 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'oli' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:14:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:25:18 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'oli' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:14:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:25:40 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'oli' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:14:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:43:25 GMT+0530 (India Standard Time) - MongoError: Cannot create field 'oli' in element {orders: [ { oli: [ 1001 ], pol: [ "Asus Zenfone Max Pro M2" ], _id: ObjectId('5e995713123bb3c75888d8dc') } ]}
+    at Function.create (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\core\error.js:43:12)
+    at toError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\utils.js:149:22)
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at C:\Users\Haribabu\Desktop\project\backend\node_modules\mongodb\lib\core\connection\pool.js:404:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Fri Apr 17 2020 12:44:29 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:46:42 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:47:44 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:48:07 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:48:23 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:48:31 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:48:53 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:57:40 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 12:58:33 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:04:17 GMT+0530 (India Standard Time) - TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:72:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:05:37 GMT+0530 (India Standard Time) - TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:72:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:05:58 GMT+0530 (India Standard Time) - TypeError: #<Object> is not a function
+    at Array.find (<anonymous>)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:73:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:11:20 GMT+0530 (India Standard Time) - ReferenceError: id is not defined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:73:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:11:38 GMT+0530 (India Standard Time) - TypeError: Cannot read property '0' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:73:50
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:12:12 GMT+0530 (India Standard Time) - TypeError: Cannot read property '0' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:73:50
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:12:49 GMT+0530 (India Standard Time) - TypeError: Cannot read property '0' of undefined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:73:50
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:13:22 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:17:40 GMT+0530 (India Standard Time) - TypeError: this.constructor.updateOne is not a function
+    at EmbeddedDocument.updateOne (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:729:34)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:75:27
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:18:51 GMT+0530 (India Standard Time) - TypeError: this.constructor.updateOne is not a function
+    at EmbeddedDocument.updateOne (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:729:34)
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:75:27
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:19:02 GMT+0530 (India Standard Time) - TypeError: result[0].orders.updateOne is not a function
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:77:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:19:48 GMT+0530 (India Standard Time) - TypeError: result[0].orders.oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:73:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:20:18 GMT+0530 (India Standard Time) - TypeError: result[0].orders.oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:73:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:45:06 GMT+0530 (India Standard Time) - TypeError: id.orders[0].oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:14:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:45:50 GMT+0530 (India Standard Time) - TypeError: id.orders[0].oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:14:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:46:53 GMT+0530 (India Standard Time) - TypeError: id.orders[0].oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:14:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:47:36 GMT+0530 (India Standard Time) - TypeError: id.orders[0].oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:14:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:48:46 GMT+0530 (India Standard Time) - TypeError: id.orders[0].oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:15:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:49:57 GMT+0530 (India Standard Time) - ValidationError: User validation failed: orders.0.pol: Cast to String failed for value "[ 'Asus Zenfone Max Pro M2' ]" at path "pol"
+    at new ValidationError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:2554:32)
+    at EmbeddedDocument.invalidate (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\types\embedded.js:291:29)
+    at EmbeddedDocument.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:1235:12)
+    at EmbeddedDocument._handleIndex (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:975:14)
+    at EmbeddedDocument.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:917:22)
+    at EmbeddedDocument.Document (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:136:12)
+    at EmbeddedDocument [as constructor] (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\types\embedded.js:42:12)
+    at new EmbeddedDocument (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\schema\documentarray.js:115:17)
+    at DocumentArrayPath.cast (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\schema\documentarray.js:437:22)
+    at DocumentArrayPath.SchemaType.applySetters (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\schematype.js:1010:12)
+    at model.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:1199:20)
+    at model._handleIndex (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\model.js:104:12)
+Fri Apr 17 2020 13:50:45 GMT+0530 (India Standard Time) - ValidationError: User validation failed: orders.0.pol: Cast to String failed for value "[ 'Asus Zenfone Max Pro M2' ]" at path "pol"
+    at new ValidationError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:2554:32)
+    at EmbeddedDocument.invalidate (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\types\embedded.js:291:29)
+    at EmbeddedDocument.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:1235:12)
+    at EmbeddedDocument._handleIndex (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:975:14)
+    at EmbeddedDocument.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:917:22)
+    at EmbeddedDocument.Document (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:136:12)
+    at EmbeddedDocument [as constructor] (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\types\embedded.js:42:12)
+    at new EmbeddedDocument (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\schema\documentarray.js:115:17)
+    at DocumentArrayPath.cast (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\schema\documentarray.js:437:22)
+    at DocumentArrayPath.SchemaType.applySetters (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\schematype.js:1010:12)
+    at model.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:1199:20)
+    at model._handleIndex (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\model.js:104:12)
+Fri Apr 17 2020 13:50:46 GMT+0530 (India Standard Time) - ValidationError: User validation failed: orders.0.pol: Cast to String failed for value "[ 'Asus Zenfone Max Pro M2' ]" at path "pol"
+    at new ValidationError (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:2554:32)
+    at EmbeddedDocument.invalidate (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\types\embedded.js:291:29)
+    at EmbeddedDocument.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:1235:12)
+    at EmbeddedDocument._handleIndex (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:975:14)
+    at EmbeddedDocument.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:917:22)
+    at EmbeddedDocument.Document (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:136:12)
+    at EmbeddedDocument [as constructor] (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\types\embedded.js:42:12)
+    at new EmbeddedDocument (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\schema\documentarray.js:115:17)
+    at DocumentArrayPath.cast (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\schema\documentarray.js:437:22)
+    at DocumentArrayPath.SchemaType.applySetters (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\schematype.js:1010:12)
+    at model.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:1199:20)
+    at model._handleIndex (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:975:14)
+    at model.$set (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:917:22)
+    at model.Document (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\Haribabu\Desktop\project\backend\node_modules\mongoose\lib\model.js:104:12)
+Fri Apr 17 2020 13:51:20 GMT+0530 (India Standard Time) - TypeError: id.orders[0].oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:15:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:52:41 GMT+0530 (India Standard Time) - TypeError: id.orders[0].oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:15:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:52:57 GMT+0530 (India Standard Time) - TypeError: id.orders[0].oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:15:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 13:53:31 GMT+0530 (India Standard Time) - TypeError: id.orders[0].oli is not iterable
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:15:46
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Apr 17 2020 22:49:00 GMT+0530 (India Standard Time) - ReferenceError: uName is not defined
+    at C:\Users\Haribabu\Desktop\project\backend\src\model\visitor.js:44:63
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 02:47:26 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 02:48:29 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 02:51:06 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 02:55:53 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 02:57:25 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 02:57:42 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 02:58:06 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 02:58:11 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:16:04 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:16:04 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:16:04 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:16:05 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:16:06 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:19:36 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:19:36 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:19:37 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:19:37 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:19:37 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:26:41 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:26:41 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:26:42 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:26:42 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:29:21 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:29:22 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:29:22 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:29:22 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 03:38:12 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:08:07 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:08:08 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:08:08 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:08:08 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:08:09 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:08:09 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:08:10 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:13:27 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:22:18 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:24:46 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:24:48 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:24:48 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 04:24:48 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 16:12:31 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 16:12:32 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 16:21:30 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 16:21:31 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 16:21:31 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 16:21:31 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:23 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:24 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:24 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:24 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:24 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:25 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:26 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:27 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:45 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:46 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:46 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:18:47 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 21:19:35 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 02:10:46 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:53:19
+Mon Apr 20 2020 10:06:31 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:13:14 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:14:09 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:24:03 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:24:04 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:24:04 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:24:04 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:27:23 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:27:24 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:27:24 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:27:54 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:33:55 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 10:33:57 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:19 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:21 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:23 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:25 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:25 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:25 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:25 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:26 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:26 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:27 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:28 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:28 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:35 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:14:39 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:22:04 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 20:22:19 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:33:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:04:17 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:7:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:04:58 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:05:42 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:06:51 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:07:14 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:07:38 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:08:51 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:09:26 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:10:18 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:11:17 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 22:13:05 GMT+0530 (India Standard Time) - Error: user cannot registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:8:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 23:13:17 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:45:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 23:16:40 GMT+0530 (India Standard Time) - Error: user not registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:20:22
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 23:22:35 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:45:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 23:22:45 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:45:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 23:22:48 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:45:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 23:22:52 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:45:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 23:28:00 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:66:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 23:28:05 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:66:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Mon Apr 20 2020 23:29:53 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+Mon Apr 20 2020 23:29:54 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:66:19
+Tue Apr 21 2020 01:14:40 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+Tue Apr 21 2020 02:26:46 GMT+0530 (India Standard Time) - Error: user not registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:20:22
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:26:46 GMT+0530 (India Standard Time) - Error: user not registered
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:20:22
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:01 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:33:02 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:33:02 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:33:28 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:28 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:41 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:41 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:46 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:49 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:49 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:49 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:58 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:58 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:33:58 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:01 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:01 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:01 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:16 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:34:16 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+Tue Apr 21 2020 02:34:17 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:17 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:17 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:18 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:26 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:26 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:26 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:28 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:34:44 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:34:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:34:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:34:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:34:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:35:25 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:25 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:25 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:25 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:25 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:25 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:49 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:50 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:57 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:57 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:57 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:57 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:35:59 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:08 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:08 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:08 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:08 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:08 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:08 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:20 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:20 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:20 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:20 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:20 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:20 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:32 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:32 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:32 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:32 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:33 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:33 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:33 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:34 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:34 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:41 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:41 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:41 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:42 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:36:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:45 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:44 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:44 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:46 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:46 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:46 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:46 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:46 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:46 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:56 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:36:56 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:36:56 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:36:56 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+Tue Apr 21 2020 02:36:57 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:36:57 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:43:18 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:66:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:51:29 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:51:29 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:51:29 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+Tue Apr 21 2020 02:51:29 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:51:36 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:51:36 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:55:11 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:66:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:55:30 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:55:19
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (internal/process/task_queues.js:62:5)
+    at listOnTimeout (internal/timers.js:518:9)
+    at processTimers (internal/timers.js:492:7)
+Tue Apr 21 2020 02:57:13 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at C:\Users\Haribabu\Desktop\project\backend\src\utilities\connection.js:66:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 02:59:09 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:45:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 03:01:05 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:45:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 09:35:36 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:46:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 09:35:46 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:46:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 09:44:56 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:46:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Apr 21 2020 09:46:03 GMT+0530 (India Standard Time) - Error: cannot update orderid
+    at C:\Users\Haribabu\Desktop\project\backend\src\service\visitor.js:46:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

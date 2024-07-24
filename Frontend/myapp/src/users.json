@@ -1,0 +1,16 @@
+[
+    {
+        "emailId": "pmvgk@gmail.com",
+        "password" : "Admin!234",
+        "uName" : "gopi",
+        "dob" : "1998-09-19",
+        "phoneNo" : 7032955264
+    },
+    {
+        "emailId": "admin@g",
+        "password" : "Admin!234",
+        "uName" : "admin",
+        "dob" : "1998-09-19",
+        "phoneNo" : 7032967264
+    }
+]

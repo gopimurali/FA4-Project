@@ -1,0 +1,10 @@
+/* .row{
+    background-color: rgb(58, 160, 126);
+} */
+.card{
+    background-color: beige;
+    margin: 2% 5% 2% 5%;
+}
+.column{
+    width: 33.33%;
+}

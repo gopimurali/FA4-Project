@@ -1,0 +1,294 @@
+<div style="height: 89.7vh;">
+  <mat-toolbar color="secondary">
+    <mat-toolbar-row>
+      <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+      </button>
+      <!-- <span>hoopla</span> -->
+      <!-- <span class="menu-spacer"></span> -->
+      <div fxShow="true" fxHide.lt-md>
+        <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+        <a mat-button (click)="filter('Electronics')"><span class="example-icon" name="Electronics">Electronics</span></a>
+        <a mat-button (click)="filter('Shoes')"><span class="example-icon" name="Shoes">Shoes</span></a>
+        <a mat-button (click)="filter('Furniture')"><span class="example-icon" name="Furniture">Furniture</span></a>
+        <a mat-button (click)="filter('Clothing')"><span class="example-icon" name="Clothing">Clothing</span></a>
+        <!-- <a href="#" mat-button>Menu Item 4</a>
+        <a href="#" mat-button>Menu Item 5</a>
+        <a href="#" mat-button>Menu Item 6</a> -->
+      </div>
+      <span class="menu-spacer"></span>
+      <form><input mat-input type="text" placeholder="search" #result>
+        <button type="submit" (click)="search(result.value)"><mat-icon matsuffix>search</mat-icon></button></form>
+
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav>
+      <mat-nav-list>
+        <!-- <a (click)="sidenav.toggle()" mat-list-item>Close</a> -->
+        <a mat-list-item (click)="sidenav.close()"><a (click)="filter('Electronics')">Electronics</a></a> 
+        <a mat-list-item (click)="sidenav.close()"><a (click)="filter('Shoes')">Shoes</a></a>
+        <a mat-list-item (click)="sidenav.close()"><a (click)="filter('Furniture')">Furniture</a></a>
+        <a mat-list-item (click)="sidenav.close()"><a (click)="filter('Clothing')">Clothing</a></a>
+        <!-- <a href="#" mat-list-item>Menu Item 4</a>
+        <a href="#" mat-list-item>Menu Item 5</a>
+        <a href="#"mat-list-item>Menu Item 6</a> -->
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div *ngIf="!res && !res1">  
+        <ngb-carousel *ngIf="images">
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper" >
+              <a (click)="filter('Clothing')"><img [src]="images[0]" alt="Random first slide" height="418px" width="1356px" ></a>
+            </div>
+            <div class="carousel-caption">
+              <h3>Fashion</h3>
+              <p>You can find the latest Fashion here</p>
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <a (click)="filter('Shoes')"><img [src]="images[1]" alt="Random second slide" height="418px" width="1356px"></a>
+            </div>
+            <div class="carousel-caption">
+              <h3>Shoes</h3>
+              <p>Discounts on Branded shoes!!</p>
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <a (click)="filter('Furniture')"><img [src]="images[2]" alt="Random third slide" height="418px" width="1356px"></a>
+            </div>
+            <div class="carousel-caption">
+              <h3>Furniture</h3>
+              <p>Do you want to make your home COOL?!Then you are at right place!!</p>
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <a (click)="filter('Electronics')"><img [src]="images[3]" alt="Random fourth slide" height="418px" width="1356px"></a>
+            </div>
+            <div class="carousel-caption">
+              <h3>Electronics</h3>
+              <p>Explore the world of Gadgets!!</p>
+            </div>
+          </ng-template>
+        </ngb-carousel>
+        </div>
+          <div *ngIf="res || type">
+            <!-- <app-products [type]="type" [result]="result"></app-products> -->
+            <div style="padding: 1% 0% 0% 1%;"><h3>The {{field}} Store:</h3></div>
+            <div class="container-fluid">
+              <div class="card-deck" style="margin: 2%;">
+              <!-- <div class="col-md-3" *ngFor="let item of cards"> -->
+                <div class="card h-100" style="padding: 40px;" *ngFor="let item of cards">
+                  <div [class.disabledbutton]="item['pSeller']['pQuantity']==0" name="nameofitem"><a (click)="detail(item.pName)"><img class="card-img-top" [src]="item.image" alt="Card image" height="250px" width="150px"></a></div>
+                  <div class="card-body">
+                    <div [class.disabledbutton]="item['pSeller']['pQuantity']==0"><a (click)="detail(item.pName)"><h4 class="card-title">{{item.pName}}</h4>
+                      <p>Rs.{{item.price}}</p>
+                      <p>Rating : {{item.pRating}}</p></a></div> 
+                      <!-- <p>Details about the cards</p> -->
+                      <!-- <a (click)="bought(item.pName)" class="btn btn-primary">Buy Now</a> -->
+                      <p *ngIf="item['pSeller']['pQuantity']>0">Quantity left: {{item["pSeller"]["pQuantity"]}}</p>
+                      <p *ngIf="item['pSeller']['pQuantity']==0" style="color: tomato;"> <strong><h5>Out of Stock!!</h5></strong></p>
+                      <a (click)='bought(item.pName)' name="buynow" class="btn btn-primary" *ngIf="item['pSeller']['pQuantity']>0">Buy now</a>
+                      <a (click)='notify()' name="notify" class="btn btn-primary" *ngIf="item['pSeller']['pQuantity']==0">Notify me</a>
+                  </div>
+                  <!-- <div class="card-footer"></div> -->
+              </div>
+              <!-- </div> -->
+            </div>
+            </div>
+          </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <mat-toolbar color="secondary"> -->
+
+
+
+
+
+  <!-- <mat-toolbar-row>
+    <div>hoopla</div>
+    <span class="example-spacer"></span>
+    <span class="example-icon">Welcome {{user}}</span>
+    <span class="material-icons example-icon">
+      shopping_cart
+      </span>
+      <span class="example-icon"> View Orders</span>
+      <a routerLink="/login"><span>Logout</span></a>
+  </mat-toolbar-row> -->
+
+
+
+
+
+  <!-- <mat-toolbar-row style="position: sticky;"> -->
+    <!-- <a (click)="filter('All')" class="example-icon">all</a> -->
+    <!-- <a mat-button (click)="filter('Electronics')" class="example-icon">Electronics</a>
+    <a mat-button (click)="filter('Shoes')"><span class="example-icon">Shoes</span></a>
+    <a mat-button (click)="filter('Furniture')"><span class="example-icon">Furniture</span></a>
+    <a mat-button (click)="filter('Clothing')"><span class="example-icon">Clothing</span></a>
+    <span class="example-spacer"></span>
+    <form><input mat-input type="text" placeholder="search" #result>
+    <button type="submit" (click)="search(result.value)"><mat-icon matsuffix>search</mat-icon></button></form>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div *ngIf="!res && !res1">  
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper" >
+      <a (click)="filter('Clothing')"><img [src]="images[0]" alt="Random first slide" height="418px" width="1356px" ></a>
+    </div>
+    <div class="carousel-caption">
+      <h3>Fashion</h3>
+      <p>You can find the latest Fashion here</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <a (click)="filter('Shoes')"><img [src]="images[1]" alt="Random second slide" height="418px" width="1356px"></a>
+    </div>
+    <div class="carousel-caption">
+      <h3>Shoes</h3>
+      <p>Discounts on Branded shoes!!</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <a (click)="filter('Furniture')"><img [src]="images[2]" alt="Random third slide" height="418px" width="1356px"></a>
+    </div>
+    <div class="carousel-caption">
+      <h3>Furniture</h3>
+      <p>Do you want to make your home COOL?!Then you are at right place!!</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <a (click)="filter('Electronics')"><img [src]="images[3]" alt="Random fourth slide" height="418px" width="1356px"></a>
+    </div>
+    <div class="carousel-caption">
+      <h3>Electronics</h3>
+      <p>Explore the world of Gadgets!!</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+</div>
+  <div *ngIf="res || type"> -->
+
+
+
+
+
+    <!-- <app-products [type]="type" [result]="result"></app-products> -->
+
+
+
+
+
+
+    
+    <!-- <div style="padding: 1% 0% 0% 1%;"><h3>The {{field}} Store:</h3></div>
+    <div class="container">
+      <div class="card-deck"> -->
+
+
+
+      <!-- <div class="col-md-3" *ngFor="let item of cards"> -->
+
+<!-- 
+        <div class="card h-100" style="padding: 40px;" *ngFor="let item of cards">
+          <div [class.disabledbutton]="item['pSeller']['pQuantity']==0"><a (click)="detail(item.pName)"><img class="card-img-top" [src]="item.image" alt="Card image" height="250px" width="150px"></a></div>
+          <div class="card-body">
+            <div [class.disabledbutton]="item['pSeller']['pQuantity']==0"><a (click)="detail(item.pName)"><h4 class="card-title">{{item.pName}}</h4>
+              <p>Rs.{{item.price}}</p>
+              <p>Rating : {{item.pRating}}</p></a></div> -->
+
+
+
+              <!-- <p>Details about the cards</p> -->
+              <!-- <a (click)="bought(item.pName)" class="btn btn-primary">Buy Now</a> -->
+
+
+
+
+              <!-- <p *ngIf="item['pSeller']['pQuantity']>0">Quantity left: {{item["pSeller"]["pQuantity"]}}</p>
+              <p *ngIf="item['pSeller']['pQuantity']==0" style="color: tomato;"> <strong><h5>Out of Stock!!</h5></strong></p>
+              <a (click)='bought(item.pName)' class="btn btn-primary" *ngIf="item['pSeller']['pQuantity']>0">Buy now</a>
+              <a (click)='notify()' class="btn btn-primary" *ngIf="item['pSeller']['pQuantity']==0">Notify me</a>
+          </div> -->
+          <!-- <div class="card-footer"></div> -->
+
+
+
+      <!-- </div> -->
+      <!-- </div> -->
+
+
+    <!-- </div>
+    </div>
+  </div> -->
+  <!-- <div *ngIf="!res && !type">         -->
+<!-- <ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[0]" alt="Random first slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Fashion</h3>
+      <p>You can find the latest Fashion here</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[1]" alt="Random second slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Shoes</h3>
+      <p>Discounts on Branded shoes!!</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[2]" alt="Random third slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Furniture</h3>
+      <p>Do you want to make your home COOL?!Then you are at right place!!</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[3]" alt="Random fourth slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Electronics</h3>
+      <p>Explore the world of Gadgets!!</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+</div> -->
+

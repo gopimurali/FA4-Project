@@ -1,0 +1,58 @@
+<body>
+<div class="row" >
+    <div class="col-md-8 offset-2">
+
+<div class="container-fluid" *ngIf="orders!=[]">
+    <div class="card" *ngFor="let order of orders | reverse">
+        <div class="card-body">
+            <div class="row" style="background-color: beige; text-align: center;"> 
+            <div class="column">
+               <div><strong>OrderId</strong></div>
+               <div>{{order.olive}}</div>
+            </div>
+            <div class="column">
+                <div><strong>Product Name</strong></div> 
+               <div>{{order.pol}}</div>
+            </div>
+            <div class="column">
+                <div ><strong>Email</strong></div>
+               <div name="email">{{email}}</div>
+            </div></div>
+            <!-- <table>
+                <tr>
+                   <td>orderid</td>
+                   <td>pid</td>
+                   <td>details</td>
+                </tr>
+                <tr>
+                    <td>{{order.olive}}</td>
+                    <td>{{order.pol}}</td>
+                    <td>{{details}}</td>
+                 </tr>
+            </table> -->
+    </div>
+    <div class="card-footer">
+        <div class="row" style="background-color: rgba(0, 0, 0, 0.03);text-align: center;">
+            <div class="column">
+                <div><strong>Ordered on Date</strong></div> <div>{{order.date | date : "medium"}}</div>
+            </div>
+            <div class="column"></div>
+            <div class="column"><div><strong>Total Cost</strong></div> <div>{{order.price*(1-order.discount)*(1+0.1) | currency : "INR"}}</div></div>
+        </div>
+        <!-- ordered on date {{order.date | date: 'dd/MM/yyyy'}} -->
+        <!-- <span>total cost: {{order.price(1-order.discount)(1+0.1) | currency : "INR"}}</span> -->
+    </div>
+    </div>
+</div>
+<div *ngIf="orders.length===0">
+    <div class="card">
+        <div class="card-body">
+           <strong>No orders yet!!</strong> 
+        </div>
+    </div>
+    
+</div>
+        
+</div>
+</div>
+</body>

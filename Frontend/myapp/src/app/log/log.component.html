@@ -1,0 +1,209 @@
+<!-- <div *ngIf="!dash"> -->
+<div class="login-page">
+    <!-- <mat-card class="mat-elevation-z12"> -->
+    <mat-card>
+      <!-- <mat-card-title style="text-align:center;">Login</mat-card-title> -->
+      <mat-tab-group mat-stretch-tabs class="example-stretched-tabs" [selectedIndex]="selected.value" (selectedIndexChange)="selected.setValue($event)">
+        <mat-tab label="Sign In">
+            <mat-card-content>
+              <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" novalidate>
+                <mat-form-field>
+                  <input
+                    matInput
+                    placeholder="Username"
+                    required
+                    formControlName="email"
+                    [(ngModel)]="user.email"
+                    name="txtEmail"
+                    >
+                      <mat-error
+                        *ngIf="loginForm.controls.email.errors?.required && loginForm.controls.email.touched">Username
+                        Required</mat-error>
+                      <mat-error
+                        *ngIf="loginForm.controls.email.errors?.email && loginForm.controls.email.dirty">enter valid emailId</mat-error>
+                    <!-- <mat-error *ngIf="loginForm.controls.email.invalid">Username is required</mat-error> -->
+                  <mat-icon matSuffix>email</mat-icon>
+                </mat-form-field>
+                <mat-form-field>
+                  <input
+                    matInput
+                    placeholder="Password"
+                    [type]="hide ? 'password' : 'text'" 
+                    required 
+                    formControlName="password"
+                    [(ngModel)]="user.password"
+                    name="txtPass"
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{7,20}$"
+                    >
+                      <mat-error
+                        *ngIf="loginForm.controls.password.errors?.required && loginForm.controls.password.touched">Password is
+                        Required</mat-error>
+                      <mat-error
+                        *ngIf="loginForm.controls.password.errors?.pattern && loginForm.controls.password.touched">Password should contain at least one uppercase, one lowercase, 
+                        one digit and should be between 7 to 20 characters</mat-error>
+                    
+                    <!-- <mat-error
+                      *ngIf="password.errors && password.errors.required && password.invalid">
+                      Password is required
+                    </mat-error>
+                    <mat-error
+                      *ngIf="password.errors && password.errors.pattern">
+                      Password should contain at least one uppercase, one lowercase, 
+                      one digit and should be between 7 to 20 characters
+                    </mat-error>
+                    <mat-error
+                      *ngIf="password.errors && (password.errors.minlength || password.errors.maxlength)">
+                      Password must be of length between 7 to 20 characters
+                    </mat-error> -->
+                  <mat-icon matSuffix (click)="hide =!hide">
+                    {{hide ? 'visibility' : 'visibility_off'}}
+                  </mat-icon>
+                </mat-form-field>
+                <button
+                  mat-raised-button
+                  color="primary"
+                  class="login-button"
+                  name="login"
+                  type="submit"
+                  [disabled]="!loginForm.valid"> 
+                  Login
+                </button>
+                <!-- <small class="text-danger" style="text-align: center;margin-left: 10%;" *ngIf="!valid">{{errorMessage}}</small> -->
+                <mat-error *ngIf="!uvalid" style="text-align: center;"><small>{{uerrorMessage}}</small></mat-error>
+
+  
+                <button
+                  mat-raised-button
+                  class="login-button" (click)="reg()">
+                  Register
+                </button>
+              </form>
+            </mat-card-content>
+        </mat-tab>
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <mat-tab label="Sign Up" id="reg">
+          <mat-card-content>
+            <form [formGroup]="registerForm" (ngSubmit)="onregister()" novalidate> 
+              <mat-form-field>
+                <input
+                  matInput
+                  placeholder="User Name"
+                  required
+                  name="username"
+                  formControlName="rusername"
+                  [(ngModel)]="ruser.username">
+                <mat-icon matSuffix>perm_identity</mat-icon>
+                <mat-error
+                        *ngIf="registerForm.controls.rusername.errors?.required && registerForm.controls.rusername.touched">username
+                        Required</mat-error>
+  
+              </mat-form-field>
+              <mat-form-field>
+                <input
+                  matInput
+                  placeholder="Email"
+                  required
+                  name="email"
+                  formControlName="remail"
+                  [(ngModel)]="ruser.email">
+                  <mat-error
+                        *ngIf="registerForm.controls.remail.errors?.required && registerForm.controls.remail.touched">email
+                        Required</mat-error>
+                      <mat-error
+                        *ngIf="registerForm.controls.remail.errors?.email && registerForm.controls.remail.dirty">enter valid emailId</mat-error>
+                <mat-icon matSuffix>email</mat-icon>
+              </mat-form-field>
+              <mat-form-field>
+                <input
+                    matInput
+                    placeholder="Password"
+                    [type]="phide ? 'password' : 'text'" 
+                    required 
+                    formControlName="rpassword"
+                    [(ngModel)]="ruser.password"
+                    name="pass"
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{7,20}$"
+                    >
+                      <mat-error
+                        *ngIf="registerForm.controls.rpassword.errors?.required && registerForm.controls.rpassword.touched">Password is
+                        Required</mat-error>
+                      <mat-error
+                        *ngIf="registerForm.controls.rpassword.errors?.pattern && registerForm.controls.rpassword.touched">Password should contain at least one uppercase, one lowercase, 
+                        one digit and should be between 7 to 20 characters</mat-error>
+                <!-- <input
+                  matInput
+                  placeholder="Password"
+                  type="password"
+                  required
+                  minlength="6"
+                  name="password"
+                  ngModel
+                  #password="ngModel">
+                  <mat-error
+                    *ngIf="password.errors && password.errors.required">
+                    Password is required
+                  </mat-error>
+                  <mat-error
+                    *ngIf="password.errors && password.errors.minlength">
+                    Password must be of length 6
+                  </mat-error> -->
+                  <mat-icon matSuffix (click)="phide =!phide">
+                    {{phide ? 'visibility' : 'visibility_off'}}
+                  </mat-icon>
+  
+              </mat-form-field>
+              <mat-form-field>
+                <input
+                    matInput
+                    placeholder="re-enter Password"
+                    [type]="rphide ? 'password' : 'text'" 
+                    required 
+                    formControlName="rrpassword"
+                    [(ngModel)]="ruser.rpassword"
+                    name="rPass"
+                    >
+                      <mat-error
+                        *ngIf="registerForm.controls.rrpassword.errors?.required && registerForm.controls.rrpassword.touched">Re-Entering Password is
+                        Required</mat-error>
+                  
+                  <!-- <input
+                  matInput
+                  placeholder="Password"
+                  type="password"
+                  required
+                  minlength="6"
+                  name="repassword"
+                  ngModel
+                  #repassword="ngModel">
+                  <mat-error
+                    *ngIf="repassword.errors && repassword.errors.required">
+                    Re-Enter Password is required
+                  </mat-error> -->
+                <!-- <mat-icon matSuffix>lock</mat-icon>
+                 -->
+                 <mat-icon matSuffix (click)="rphide =!rphide">
+                  {{rphide ? 'visibility' : 'visibility_off'}}
+                </mat-icon>
+              </mat-form-field>
+              <button
+                mat-raised-button
+                color="primary"
+                type="submit"
+                [disabled]="!registerForm.valid"
+                class="login-button">
+                Sign Up
+              </button>
+              <mat-error *ngIf="!rvalid" style="text-align: center;"><small>{{rerrorMessage}}</small></mat-error>
+              <mat-error *ngIf="rvalid" style="text-align: center;"><small>{{successmessage}}</small></mat-error>
+
+            </form>
+          </mat-card-content>
+        </mat-tab>
+        <!-- <mat-tab label="gopi"></mat-tab> -->
+      </mat-tab-group>
+    </mat-card>
+  </div>
+<!-- </div> -->
+<!-- <div *ngIf="dash">
+  <app-dashboard [user]="user.email"></app-dashboard></div> -->

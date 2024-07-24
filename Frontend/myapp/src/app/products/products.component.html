@@ -1,0 +1,52 @@
+<div class="conatiner-fluid align-center">
+  <div class="row">
+    <div class="column" [class.disabledbutton]="product['pSeller']['pQuantity']==0">
+      <img src={{product.image}} alt="this image" height="350px" width="300px" style="margin:10% 10% 10% 10%;">
+    </div>
+    <div class="column">
+      <div style="margin: 5% 5% 5% 5%;">
+        <div [class.disabledbutton]="product['pSeller']['pQuantity']==0">
+      <small>category:{{product.pCategory}}</small><br>
+      <h3>{{product.pName}}</h3>
+      <span>By seller {{product['pSeller']['s_Id']}}</span><br>
+      <span><strong>Description:</strong></span>
+      <span>{{product.pDescription}}</span><br>
+      <h3><strong>Price:</strong> {{(product.price)*(1-product['pSeller']['pDiscount']) | currency:'INR'}}</h3>
+      <h5><s>{{product.price | currency:'INR'}}</s></h5><br>
+      <h3>{{product['pSeller']['pDiscount'] | percent}} + {{product['pSeller']['pShippingCharges']}} shipping charges </h3></div><br>
+      <!-- <h4><strong>Quantity left: {{product['pSeller']['pQuantity']}}</strong></h4> -->
+      <h4 *ngIf="product['pSeller']['pQuantity']>0">QUantity left: {{product["pSeller"]["pQuantity"]}}</h4>
+      <h3 *ngIf="product['pSeller']['pQuantity']==0" style="color: tomato;"> <strong>Out of Stock!!</strong></h3>
+      <!-- <a (click)='bought(product.pName)' class="btn btn-primary" *ngIf="!buynow">buy now</a>
+      <a (click)='notify()' *ngIf="buynow">notify me</a> -->
+      <a (click)='bought(product.pName)' class="btn btn-primary" name="buynow" *ngIf="product['pSeller']['pQuantity']>0" style="color: white;margin-right: 5%;">buy now</a>
+      <a (click)='notify()' class="btn btn-primary" *ngIf="product['pSeller']['pQuantity']==0" name="notify" style="color: white;margin-right: 5%;">notify me</a>
+      <a (click)='goback()' class="btn btn-info" name="goback">Go Back</a> 
+    </div>
+      
+    </div>
+  </div>
+</div>
+<!-- <div class="card" *ngIf="buynow">
+  <table>
+    <tr>
+      <td><img src={{product.image}} alt="this image"></td>
+      <td>
+        <h2>{{product.pName}}</h2>
+        <h5>Delivery Time: Delivery by Tomorrow</h5>
+        <h5>Quantity:</h5>1
+      </td>
+    </tr>
+    <tr>
+      <h3>Price details:</h3>
+      item price : {{product.price}} <br>
+      cgst : {{0.05 | percent}} <br>
+      sgst : {{0.05 | percent}} <br>
+      <strong>Total Payable : {{(product.price)*(1-product['pSeller']['pDiscount'])*(1+0.1) | currency : 'INR'}}</strong> 
+    </tr>
+    <tr>
+      <button (click)='bought(product.pName)'>checkout</button>
+      <button (click)='cancel()'>cancel</button>
+    </tr>
+  </table>
+</div> -->
